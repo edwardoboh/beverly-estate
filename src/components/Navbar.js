@@ -8,6 +8,7 @@ function Navbar(){
 
         <div className="nav-items">
         <h1 className="logo">Beverly hills</h1>
+        <h2 className="logo">Home</h2>
 
         </div>
       
