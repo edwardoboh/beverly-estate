@@ -73,5 +73,10 @@ button.navbar-toggler{
     font-size: .8em;
     font-weight: 400;
   }
-
+  .hero-text{
+    color: white;
+    font-family: 'roboto';
+    font-size: 1.5em;
+    margin-top: 3%;
+  }
 }
