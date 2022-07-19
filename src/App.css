@@ -65,6 +65,41 @@ button.navbar-toggler{
   margin-top:300px;
 
 }
+
+.Name{
+  color: black;
+  text-align: center;
+  margin-top: 2%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+
+.ozark{
+  width: 420px;
+  margin-top: 15%;
+
+}
+
+.bio{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  width: 600px;
+  line-height: 35px;
+  margin-top: 10%;
+}
+
+.about-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
 @media only screen and (max-width: 414px) {
   a.nav-link{
     margin-left: 40%;
@@ -78,5 +113,41 @@ button.navbar-toggler{
     font-family: 'roboto';
     font-size: 1.5em;
     margin-top: 3%;
+  }
+
+  .Name{
+    color: black;
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+  }
+  
+  
+  .ozark{
+    width: 220px;
+    margin-top: 15%;
+  
+  }
+  
+  .bio{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    width: 600px;
+    line-height: 35px;
+    margin-top: 10%;
+    padding-left: 10px;
+    padding-right:10px;
+  }
+  
+  .about-info{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+  
   }
 }
