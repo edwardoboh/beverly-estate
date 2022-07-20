@@ -6,6 +6,8 @@ import About from './pages/About';
 import How from './pages/How';
 import HowtoData from './HowtoData';
 import Steps from './infoSection';
+import Testimonial from './pages/Testimonial';
+import Review from './pages/Reviews';
 
 function App() {
 const stepsElements = HowtoData.map(info =>{
@@ -14,6 +16,7 @@ const stepsElements = HowtoData.map(info =>{
     {...info} />
   )
 });
+
 
 
   return (
@@ -25,7 +28,11 @@ const stepsElements = HowtoData.map(info =>{
     <div className='step-elements'>
     {stepsElements}
     </div>
-
+    <Testimonial />
+   <div className='testimonial-elements'>
+   <Review />
+   </div>
+ 
     </div>
   );
 }
