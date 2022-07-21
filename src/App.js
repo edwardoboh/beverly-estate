@@ -1,13 +1,16 @@
-import Nav from './pages/Nav';
-import './App.css';
 import React from 'react';
+import './App.css';
+
+import Nav from './pages/Nav';
 import Hero from './pages/Hero';
 import About from './pages/About';
 import How from './pages/How';
+import Review from './pages/Reviews';
+import Testimonial from './pages/Testimonial';
+import Footer from './pages/Footer';
+
 import HowtoData from './HowtoData';
 import Steps from './infoSection';
-import Testimonial from './pages/Testimonial';
-import Review from './pages/Reviews';
 
 function App() {
 const stepsElements = HowtoData.map(info =>{
@@ -21,16 +24,17 @@ const stepsElements = HowtoData.map(info =>{
 
   return (
     <div className="App">
-    <Nav />
-    <Hero />
-    <About />
-    <How   />
-    <div className='step-elements'>
-    {stepsElements}
-    </div>
-    <Testimonial />
-   <div className='testimonial-elements'>
-   <Review />
+      <Nav />
+      <Hero />
+      <About />
+      <How   />
+      <div className='step-elements'>
+        {stepsElements}
+      </div>
+      <Testimonial />
+      <div className='testimonial-elements'>
+      <Review />
+      <Footer />
    </div>
  
     </div>
