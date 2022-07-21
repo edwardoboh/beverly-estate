@@ -36,7 +36,7 @@ button.navbar-toggler{
   flex-direction: column;
   align-items: center;
 
-
+  position: relative;
 }
 
 .hero-text{
@@ -64,6 +64,11 @@ button.navbar-toggler{
   font-size: 1.2em;
   margin-top:300px;
 
+}
+
+.apply-btn {
+  position: absolute;
+  top: 7.5rem
 }
 
 .Name{
@@ -183,9 +188,9 @@ button.navbar-toggler{
 }
 
 .review-box{
-
-
+  
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: .5em;
 
 }
 
