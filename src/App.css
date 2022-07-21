@@ -4,17 +4,247 @@
   padding:0;
 }
 
-.nav-bar{
-  background-color: black;
-  height: 80px;
 
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
+a.nav-link{
+  margin-left: auto;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
 }
 
 .logo{
   color: white;
-  padding-top:22px;
-  padding-left: 10px;
 }
 
+button.navbar-toggler{
+  color: grey;
+}
+
+.navbar{
+  background-color: black;
+}
+
+.main{
+
+  background-image: url("./assets/2.jpg");
+  height: 70vh;
+
+  background-position: center;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.hero-text{
+  color: white;
+  font-family: 'roboto';
+  font-size: 2em;
+  margin-top: 3%;
+}
+
+
+.hero-text-2{
+  color: white;
+  font-size: 1em;
+}
+
+
+.button{
+
+  width: 180px;
+  background-color: #FB0404;
+  border-radius: 5px;
+  color: white;
+  height: 50px;
+  border-width: 0;
+  font-size: 1.2em;
+  margin-top:300px;
+
+}
+
+.Name{
+  color: black;
+  text-align: center;
+  margin-top: 2%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+
+.ozark{
+  width: 420px;
+  margin-top: 15%;
+
+}
+
+.bio{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  width: 600px;
+  line-height: 35px;
+  margin-top: 10%;
+}
+
+.about-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.steps-heading{
+  color: black;
+  font-size: 1.3em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+
+}
+
+
+.steps-description{
+  color: black;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  width: 250px;
+
+}
+.info-section{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.step-elements{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  overflow-x: auto;
+  padding: 10%;
+}
+
+.quote{
+  color: black;
+  font-size: 6em;
+  font-family: 'Sonsie One', cursive;
+  margin-bottom: 0px;
+
+}
+
+
+.review{
+  color: black;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  width: 350px;
+  text-align: center;
+
+}
+
+
+.review-items{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  overflow-x: auto;
+  padding: 10%;
+
+}
+
+.customer{
+  color: black;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  text-align: center
+}
+
+
+.address{
+  color: black;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  padding: 10%;
+  text-align: center
+
+}
+
+.star{
+  padding: 10%;
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+.review-box{
+
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+@media only screen and (max-width: 414px) {
+  a.nav-link{
+    margin-left: 40%;
+    color: white;
+    margin-right: 30%;
+    font-size: .8em;
+    font-weight: 400;
+  }
+  .hero-text{
+    color: white;
+    font-family: 'roboto';
+    font-size: 1.5em;
+    margin-top: 3%;
+  }
+
+  .main{
+
+    background-image: url("./assets/2.jpg");
+    height: 65vh;
+  
+    background-position: center;
+  
+  }
+  .Name{
+    color: black;
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+  }
+  
+  
+  .ozark{
+    width: 220px;
+    margin-top: 15%;
+  
+  }
+  
+  .bio{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    width: 600px;
+    line-height: 35px;
+    margin-top: 10%;
+    padding-left: 10px;
+    padding-right:10px;
+  }
+  
+  .about-info{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+  
+  }
+}
