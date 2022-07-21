@@ -220,7 +220,7 @@ button.navbar-toggler{
   .Name{
     color: black;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 7%;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 1em;
@@ -252,4 +252,9 @@ button.navbar-toggler{
     justify-content: space-around;
   
   }
+  .apply-btn {
+    position: absolute;
+    top: 5.9rem
+  }
+  
 }
