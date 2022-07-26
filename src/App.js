@@ -8,7 +8,7 @@ import How from './pages/How';
 import Review from './pages/Reviews';
 import Testimonial from './pages/Testimonial';
 import Footer from './pages/Footer';
-
+import Houses from './pages/Houses';
 import HowtoData from './HowtoData';
 import Steps from './infoSection';
 
@@ -31,6 +31,8 @@ const stepsElements = HowtoData.map(info =>{
       <div className='step-elements'>
         {stepsElements}
       </div>
+      
+      <Houses />
       <Testimonial />
       <div className='testimonial-elements'>
       <Review />
