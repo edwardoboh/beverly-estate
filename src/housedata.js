@@ -2,7 +2,7 @@
 export default [
     {
         id: 1,
-        housePic: "../assets/3.jpeg",
+        housePic: "3.jpeg",
         rent: "$11,000",
         List: "$9,609,000",
         size: "5 beds 4 baths, 6108 sq ft",
@@ -13,7 +13,7 @@ export default [
 
     {
         id: 2,
-        housePic: "../assets/4.jpeg",
+        housePic: "4.jpeg",
         rent: "$10,000",
         List: "$9,267,000",
         size: "4 beds 4 baths, 5208 sq ft",
@@ -24,7 +24,7 @@ export default [
 
     {
         id: 3,
-        housePic: "./assets/5.jpeg",
+        housePic: "5.jpeg",
         rent: "$13,300",
         List: "$12,200,700",
         size: "5 beds 7 baths, 5500 sq ft",
@@ -34,7 +34,7 @@ export default [
 
     {
         id: 4,
-        housePic: "./assets/6.jpeg",
+        housePic: "6.jpeg",
         rent: "$15,100",
         List: "$17,150,000",
         size: "7 beds 7 baths, 7500 sq ft",
@@ -44,7 +44,7 @@ export default [
 
     {
         id: 5,
-        housePic: "./assets/7.JPG",
+        housePic: "7.JPG",
         rent: "$7,000",
         List: "$4,873,000",
         size: "4 beds 5 baths, 4108 sq ft",
@@ -54,7 +54,7 @@ export default [
 
     {
         id: 6,
-        housePic: "./assets/8.JPG",
+        housePic: "8.JPG",
         rent: "$8,000",
         List: "$5,273,200",
         size: "5 beds 7 baths, 4110 sq ft",
@@ -64,7 +64,7 @@ export default [
 
     {
         id: 7,
-        housePic: "./assets/9.JPG",
+        housePic: "9.JPG",
         rent: "$8,700",
         List: "$5,103,200",
         size: "4 beds 5 baths, 5510 sq ft",
@@ -74,7 +74,7 @@ export default [
 
     {
         id: 8,
-        housePic: "./assets/10.JPG",
+        housePic: "10.JPG",
         rent: "$8,500",
         List: "$18,654,200",
         size: "7 beds 9 baths, 7510 sq ft",
@@ -84,7 +84,7 @@ export default [
 
     {
         id: 9,
-        housePic: "./assets/11.JPG",
+        housePic: "11.JPG",
         rent: "$7,760",
         List: "$5,654,200",
         size: "8 beds 12 baths, 6410 sq ft",
@@ -94,7 +94,7 @@ export default [
 
     {
         id: 10,
-        housePic: "./assets/12.JPG",
+        housePic: "12.JPG",
         rent: "$6,893",
         List: "$4,651,290",
         size: "5 beds 6 baths, 4310 sq ft",
@@ -105,7 +105,7 @@ export default [
     
     {
         id: 11,
-        housePic: "./assets/12.JPG",
+        housePic: "12.JPG",
         rent: "$9,260",
         List: "$18,534,000",
         size: "8 beds 9.5 baths, 7819 sq ft",
@@ -115,7 +115,7 @@ export default [
 
     {
         id: 12,
-        housePic: "./assets/13.JPG",
+        housePic: "13.JPG",
         rent: "$7,470",
         List: "$9,254,000",
         size: "6 beds 5 baths, 7635 sq ft",
@@ -125,7 +125,7 @@ export default [
 
     {
         id: 13,
-        housePic: "./assets/14.JPG",
+        housePic: "14.JPG",
         rent: "$9,500",
         List: "$18,394,000",
         size: "7 beds 8 baths, 7935 sq ft",

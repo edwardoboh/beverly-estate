@@ -18,24 +18,27 @@ function toggle(){
 return(
     <>
     {data.map(singleData =>{
-    let favIcon = singleData.favorite ? "favistrue.png" : "favisfalse.png" ;
+    let favIcon = singleData.favorite ? "../images/favistrue.png" : "../images/favisfalse.png" ;
 
 return(
 
 
 
-    <div className="house-cards">
+    <div className="house-cards" >
     <div className="card-content">
     
-        <img src={singleData.housePic} className="card-photo" alt="house-view" />
-        <span>Monthly rent</span>
-        <span>List Price</span>
+        <img src= {`../images/${singleData.housePic}`} className="card-photo" alt="house-view" />
+        <div className="price-div">
+        <span className="price-headings">Monthly rent</span>
+        <span className="price-headings">List Price</span>
+        </div>
+ 
         <div className="prices">
             <h2 className="rent">{singleData.rent}</h2>
             <h2 className="list">{singleData.List}</h2>
             <img src={`..images/${favIcon}`} alt="fav"
             className='favicon'
-            onClick={toggle} 
+            onClick={()=>toggle(singleData.id)} 
     
             />
     
