@@ -4,7 +4,6 @@ import housedata from "../housedata";
 function Card () {
     const[data, setData] = React.useState(housedata);
 
-let favIcon = data.favorite ? "favistrue.png" : "favisfalse.png" ;
 
 function toggle(){
     setData(prevData =>{
@@ -14,30 +13,49 @@ function toggle(){
             favorite: !prevData.favorite
         }
     })
-}
+};
 
-<div className="house-cards">
-<div className="card-content">
+return(
+    <>
+    {data.map(singleData =>{
+    let favIcon = singleData.favorite ? "../images/favistrue.png" : "../images/favisfalse.png" ;
 
-    <img src={`./assets/${data.housePic}`} className="card-photo" alt="house-view"/>
-    <span>Monthly rent</span>
-    <span>List Price</span>
-    <div className="prices">
-        <h2 className="rent">{data.rent}</h2>
-        <h2 className="list">{data.list}</h2>
-        <img src={`..images/${favIcon}`} alt="fav"
-        className='favicon'
-        onClick={toggle} 
+return(
 
-        />
 
+
+    <div className="house-cards" >
+    <div className="card-content">
+    
+        <img src= {`../images/${singleData.housePic}`} className="card-photo" alt="house-view" />
+        <div className="price-div">
+        <span className="price-headings">Monthly rent</span>
+        <span className="price-headings">List Price</span>
+        </div>
+ 
+        <div className="prices">
+            <h2 className="rent">{singleData.rent}</h2>
+            <h2 className="list">{singleData.List}</h2>
+            <img src={`..images/${favIcon}`} alt="fav"
+            className='favicon'
+            onClick={()=>toggle(singleData.id)} 
+    
+            />
+    
+        </div>
+    
+        <h2 className="size">{singleData.size}</h2>
+        <h2 className="site">{singleData.site}</h2>
     </div>
+    
+    </div>
+    )
+    })}
+    
+    </>
+)
 
-    <h2 className="size">{data.size}</h2>
-    <h2 className="site">{data.site}</h2>
-</div>
 
-</div>
 
 }
 
