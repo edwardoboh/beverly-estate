@@ -196,6 +196,7 @@ button.navbar-toggler{
 
 .card-photo{
   width: 220px;
+  margin-top: 5%;
 }
 
 .favicon{
@@ -255,6 +256,18 @@ button.navbar-toggler{
   display: flex;
   gap: 5%;
 }
+
+
+.HouseElements{
+
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  padding: 10%;
+  overflow-x: auto;
+}
+
+
 @media only screen and (max-width: 414px) {
   a.nav-link{
     margin-left: 40%;
@@ -317,5 +330,67 @@ button.navbar-toggler{
     position: absolute;
     top: 5.9rem
   }
+
   
+  .house-cards{
+    border-radius: 50px;
+    background: #f4f1f1;
+    box-shadow:  9px 9px 18px #e3e0e0,
+                 -9px -9px 18px #ffffff;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 5%;
+  
+  
+  }
+
+  .card-content{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  
+  }
+
+  
+.card-photo{
+  width: 180px;
+  margin-top: 5%;
+}
+
+.favicon{
+  width:22px;
+  height: 22px;
+}
+
+.size, .site{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  width: 200px;
+}
+
+
+.rent{
+  color: #69E708;
+  font-size: 1em;
+}
+
+.list{
+  color: #0A95AF;
+  font-size: 1em;
+}
+
+
+.prices{
+  display: flex;
+  
+  gap: 5%;
+}
+
+
+
+
+
 }

@@ -14,7 +14,7 @@ function Houses (){
     })
 
     return (
-        <div>
+        <div className="HouseElements">
             {HouseElements}
         </div>
     )
