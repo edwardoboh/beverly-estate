@@ -16,8 +16,11 @@ function Card ({id, housePic, rent, List, size, site, favorite}) {
         })
     };
 
+
+ 
     return(
         <>
+            
             <div className="house-cards" >
                 <div className="card-content">
                 
@@ -41,7 +44,7 @@ function Card ({id, housePic, rent, List, size, site, favorite}) {
                     <h2 className="size">{size}</h2>
                     <h2 className="site">{site}</h2>
                 </div>
-            </div>
+            </div> 
         </>
     )
 }

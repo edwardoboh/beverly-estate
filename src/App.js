@@ -21,7 +21,6 @@ const stepsElements = HowtoData.map(info =>{
 });
 
 
-
   return (
     <div className="App">
       <Nav />
@@ -32,7 +31,7 @@ const stepsElements = HowtoData.map(info =>{
         {stepsElements}
       </div>
       
-      <Houses />
+      <Houses  />
       <Testimonial />
       <div className='testimonial-elements'>
       <Review />

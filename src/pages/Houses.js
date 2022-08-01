@@ -13,9 +13,30 @@ function Houses (){
         ) 
     })
 
+const[showMap, setShowMap] =React.useState(true);
+
+function toggleMap(){
+    setShowMap(prevMap => !prevMap)
+}
+
+
+
     return (
-        <div className="HouseElements">
-            {HouseElements}
+<div>
+
+
+
+    <button className="map-view"
+    onClick={toggleMap}
+   
+    >{ showMap ? "Hide map" : "Show map"}</button>
+    
+
+
+    { showMap && <div className="HouseElements">
+            
+        {HouseElements}
+    </div>}
         </div>
     )
 }
