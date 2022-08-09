@@ -84,6 +84,7 @@ button.navbar-toggler{
 .ozark{
   width: 420px;
   margin-top: 15%;
+  border-radius:10%;
 
 }
 
@@ -277,7 +278,17 @@ button.navbar-toggler{
   font-size: 1.2em;
   margin:10px 0 0 10px;
 }
+.map-container{
+  width: 80vw;
+  height: 60vh;
+}
 
+.LA-map{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media only screen and (max-width: 414px) {
   a.nav-link{
     margin-left: 40%;
