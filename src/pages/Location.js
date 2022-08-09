@@ -18,12 +18,13 @@ function Location() {
   
   }
   
+  const center = {lat: 34.0, lng: -118.3}
   
   function Map(){
   
     return (
   <GoogleMap zoom={10}
-              center={{lat: 34.0, lng: -118.4}}
+              center={center}
               mapContainerClassName="map-container"
   >
   
