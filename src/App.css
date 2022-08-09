@@ -332,7 +332,7 @@ button.navbar-toggler{
     color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
-    font-size: 1.2em;
+    font-size: 1em;
     width: 600px;
     line-height: 35px;
     margin-top: 10%;
@@ -411,6 +411,27 @@ button.navbar-toggler{
 }
 
 
+.steps-heading{
+  color: black;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+
+}
+
+
+.steps-description{
+  color: black;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  width: 250px;
+
+}
+.info-section{
+  display: flex;
+  flex-direction: column;
+
+}
 
 
 
