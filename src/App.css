@@ -84,6 +84,7 @@ button.navbar-toggler{
 .ozark{
   width: 420px;
   margin-top: 15%;
+  border-radius:10%;
 
 }
 
@@ -196,6 +197,7 @@ button.navbar-toggler{
 
 .card-photo{
   width: 220px;
+  margin-top: 5%;
 }
 
 .favicon{
@@ -255,6 +257,38 @@ button.navbar-toggler{
   display: flex;
   gap: 5%;
 }
+
+
+.HouseElements{
+
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  padding: 10%;
+  overflow-x: auto;
+}
+
+.map-view{
+  width: 120px;
+  background-color: #044855;
+  border-radius: 5px;
+  color: white;
+  height: 50px;
+  border-width: 0;
+  font-size: 1.2em;
+  margin:10px 0 0 10px;
+}
+.map-container{
+  width: 80vw;
+  height: 60vh;
+}
+
+.LA-map{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media only screen and (max-width: 414px) {
   a.nav-link{
     margin-left: 40%;
@@ -298,7 +332,7 @@ button.navbar-toggler{
     color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
-    font-size: 1.2em;
+    font-size: 1em;
     width: 600px;
     line-height: 35px;
     margin-top: 10%;
@@ -317,5 +351,88 @@ button.navbar-toggler{
     position: absolute;
     top: 5.9rem
   }
+
   
+  .house-cards{
+    border-radius: 50px;
+    background: #f4f1f1;
+    box-shadow:  9px 9px 18px #e3e0e0,
+                 -9px -9px 18px #ffffff;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 5%;
+  
+  
+  }
+
+  .card-content{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  
+  }
+
+  
+.card-photo{
+  width: 180px;
+  margin-top: 5%;
+}
+
+.favicon{
+  width:22px;
+  height: 22px;
+}
+
+.size, .site{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  width: 200px;
+}
+
+
+.rent{
+  color: #69E708;
+  font-size: 1em;
+}
+
+.list{
+  color: #0A95AF;
+  font-size: 1em;
+}
+
+
+.prices{
+  display: flex;
+  
+  gap: 5%;
+}
+
+
+.steps-heading{
+  color: black;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+
+}
+
+
+.steps-description{
+  color: black;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  width: 250px;
+
+}
+.info-section{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
 }
